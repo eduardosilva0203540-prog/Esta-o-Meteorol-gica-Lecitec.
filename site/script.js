@@ -1,6 +1,6 @@
 async function atualizar(){
 
-    const resposta = await fetch("http://localhost:3000/dados");
+  fetch("https://esta-o-meteorol-gica-lecitec.onrender.com/dados")
 
     const dados = await resposta.json();
 
